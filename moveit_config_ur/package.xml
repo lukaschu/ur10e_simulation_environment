@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>moveit_config_ur</name>
+  <version>2.1.1</version>
+  <description>
+    <p>
+      MoveIt Resources for Universal Robots ur10e
+    </p>
+  </description>
+  <author email="yannick.pellenz@bmw.de">Yannick Pellenz</author>
+  <maintainer email="yannick.pellenz@bmw.de">Yannick Pellenz</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>ur_description</exec_depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  
+  <export>
+      <build_type>ament_cmake</build_type>
+      <!--<resource>
+        <directory>srdf</directory>
+      </resource>-->
+  </export>
+</package>

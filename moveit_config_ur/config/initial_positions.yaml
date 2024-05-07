@@ -1,0 +1,6 @@
+shoulder_pan_joint: -1.6581       # -95°  [-180°, 90°]
+shoulder_lift_joint: -1.5708      # -90°  [-160°, 20°]
+elbow_joint: 2.0944               # 120°  [0°, 150°]
+wrist_1_joint: -0.5236            # -30°  [-180°, 180°]
+wrist_2_joint: 0.0                # 90°   [-180°, 180°]
+wrist_3_joint: 0.0                # 0°    [-180°, 180°]
