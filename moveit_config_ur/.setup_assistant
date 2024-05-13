@@ -1,0 +1,9 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: moveit_config_ur
+    relative_path: urdf/ur.urdf.xacro
+    xacro_args: name:=ur10e ur_type:=ur10e
+  SRDF:
+    package: moveit_config_ur
+    relative_path: srdf/ur.srdf.xacro
+    xacro_args: name:=ur10e prefix:=""
